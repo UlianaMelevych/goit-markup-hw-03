@@ -4,6 +4,7 @@ body{
     background-color: #FFFFFF;
 }
 ul{
+    
     list-style-type: none;
 }
 
@@ -37,7 +38,6 @@ color: #2e2f42;
     color: #404bbf;
 }
 .nav-menu{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
@@ -54,7 +54,6 @@ text-decoration: none;
 }
 
 .contacts{
-    font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -71,7 +70,6 @@ background-color: #2e2f42;
 
 }
 .hero-title{
-    font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -80,7 +78,6 @@ text-align: center;
 color: #fff;
 }
 .btn-hero{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -102,7 +99,6 @@ cursor: pointer;
 }
 
 .title-feature{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -110,7 +106,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .descr-feature{
-    font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -123,7 +118,6 @@ background: #f4f4fd;
 
 }
 .team-title{
-    font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -139,11 +133,9 @@ justify-content: center;
 }
 
 .img-team{
-background: url("path_to_image");
-list-style-type: none; 
+background-color: url("path_to_image");
 }
 .team-name{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -153,7 +145,6 @@ color: #2e2f42;
 
 }
 .team-prof{
-    font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -164,7 +155,6 @@ color: #434455;
 }
 
 .portfolio-title{
-    font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -173,14 +163,10 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.portfolio-line{
-    list-style-type: none;
-}
 .portfolio-img{
 background: url("path_to_image");
 }
 .portfolio-descr{
-    font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -188,7 +174,6 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 }
 .portfolio-descr-line{
-    font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -202,7 +187,6 @@ color: #434455;
 background: #2e2f42;
 }
 .footer-line{
-    font-family: "Roboto", sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
