@@ -13,30 +13,34 @@
 </head>
 <body>
     <header class="navbar">
-                <nav class="header-nav">
-                <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
-                  <ul class="nav-menu-page">
-                          <li> <a  href="./index.html" class="nav-menu">Studio</a> </li>
-                          <li> <a  href="" class="nav-menu">Portfolio</a></li> 
-                          <li> <a  href="" class="nav-menu">Contacts</a></li>
-                  </ul> 
-                 </nav>
-                 <address class="contacts-line">
-                    <ul class="contacts-list">
-                  <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li> 
-                  <li><a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a></li>
-                   </ul>
-                </address>
-            
+      <div class="container header-container"> 
+        <nav class="header-nav">
+          <a href="./index.html" class="logo header-logo">Web<span class="logo-span">Studio</span></a>
+            <ul class="nav-menu-page">
+                    <li> <a  href="./index.html" class="nav-menu">Studio</a> </li>
+                    <li> <a  href="" class="nav-menu">Portfolio</a></li> 
+                    <li> <a  href="" class="nav-menu">Contacts</a></li>
+            </ul> 
+           </nav>
+           <address class="contacts-line">
+              <ul class="contacts-list">
+            <li><a href="mailto:info@devstudio.com" class="contacts">info@devstudio.com</a></li> 
+            <li><a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a></li>
+             </ul>
+            </address>
+      </div>   
     </header>
     <main>
             <section class="main-page-hero">
+               <div class="container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
                 <button type="button" class="btn-hero">Order Service</button>
+                </div>
              </section>
         <section class="feature-page">
+          <div class="container">
                 <h2 class="title-none">Features</h2>  
-                    <ul>
+                    <ul class="list-feature">
                       <li class="line-feature"> 
                          <h3 class="title-feature">Strategy</h3>
                          <p class="descr-feature">Our goal is to identify the business
@@ -51,10 +55,12 @@
                         <h3 class="title-feature">Technologies</h3>
                         <p class="descr-feature">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p></li>
                     </ul>
+               </div>
            </section>
          <section class="team-page">
-            <h2 class="team-title">Our Team</h2>
-            <ul>
+            <div class="container">
+              <h2 class="team-title">Our Team</h2>
+            <ul class="team-line">
                 <li class="team-list">
             <img src="./images/markguerrero.jpg" alt="Mark Guerrero" class="img-team"
             width="264">
@@ -80,9 +86,11 @@
             <p class="team-prof">UI Designer</p>
            </li>
           </ul>
+            </div>
          </section>
         <section class="portfolio-page" >
-          <h2 class="portfolio-title">Our Portfolio</h2>
+          <div class="container">
+            <h2 class="portfolio-title">Our Portfolio</h2>
           <ul class="portfolio-line-page">
             <li class="portfolio-line">
               <img src="./images/banking.jpg" alt="Banking App" width="360" class="portfolio-img">
@@ -115,14 +123,17 @@
               <p class="portfolio-descr-line">Marketing</p>
             </li>
           </ul>
+          </div>
         </section>
     </main>
     <footer class="footer-page">
-        <a href="./index.html" class="logo">Web <span class="logo-span-footer">Studio</span></a>
+       <div class="container">
+        <a href="./index.html" class="logo footer-logo">Web <span class="logo-span-footer">Studio</span></a>
         <p class="footer-line">Increase the flow of customers and 
          sales for your business with digital
           marketing & growth solutions.
          </p> 
-        </footer>
+       </div>    
+    </footer>
         
 </html>
