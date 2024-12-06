@@ -211,21 +211,16 @@ text-transform: capitalize;
 }
 .team-line{
     display: flex;
-align-items: center;
-justify-content: center;
-gap: 24px;
+      gap: 24px;
     
 }
 .team-list{
+    width: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
   background-color: #FFFFFF;
 
 }
 
-.img-team{
-    margin-bottom: 32px;
-background-color: url("path_to_image");
-}
 .team-container{
     padding: 32px 0;
 }
@@ -286,7 +281,7 @@ background: url("path_to_image");
 .portfolio-descr{
     justify-content: center;
     margin-top: 32px;
-    
+    margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -311,13 +306,12 @@ color: #434455;
 .footer-logo{
     display: inline-block; 
     margin-bottom: 16px;
-    display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: row;
 gap: 0px;
 }
-.logo-span-footer{
+.logo-span-footer{ 
     color: #f4f4fd;
     
 }
